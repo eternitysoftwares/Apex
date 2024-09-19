@@ -373,6 +373,9 @@ body.hide-header .header {
         <span id="delete-chat-button" class="icon material-symbols-rounded">delete</span>
       </div>
     </form>
+        <p class="disclaimer-text">
+      Apex is made by Bal Bharati Public School Nabinagar
+    </p>
   </div>
 
   <script>
@@ -388,7 +391,7 @@ let isResponseGenerating = false;
 
 // API configuration
 const API_KEY = "AIzaSyAc0uns8SqJYV-eYhJ6BrSk1U58fsNcI00"; // Your API key here
-const API_URL = ``;
+const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
 
 // Load theme and chat data from local storage on page load
 const loadDataFromLocalstorage = () => {
